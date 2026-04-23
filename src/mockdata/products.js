@@ -20,7 +20,7 @@ export const products = [
 
   // ACCESORIOS (4)
   { id: 13, title: "Reloj Platino Elite", price: 1200.00, category: "accesorios", image: "/images/reloj.jpg", description: "Maquinaria suiza y correa de acero pulido." },
-  { id: 14, title: "Cinturón Cuero Negro", price: 55.00, category: "accesorios", image: "/images/cinturon.jpg, description: "Hebilla plateada de diseño minimalista." },
+  { id: 14, title: "Cinturón Cuero Negro", price: 55.00, category: "accesorios", image: "/images/cinturon.jpg", description: "Hebilla plateada de diseño minimalista." },
   { id: 15, title: "Corbata de Seda Gris", price: 45.00, category: "accesorios", image: "/images/corbata.jpg", description: "Accesorio esencial para trajes de gala." },
   { id: 16, title: "Gemelos de Plata Real", price: 120.00, category: "accesorios", image: "/images/gemelos.jpg", description: "El toque final de distinción para tus puños." }
 ];
