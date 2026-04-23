@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="relative h-[500px] w-full bg-neutral-900 overflow-hidden mb-16">
       {/* Imagen de fondo con opacidad para resaltar el texto */}
       <img 
-        src="https://unsplash.com" 
+        src="banner-gala.jpg" 
         alt="Banner Gala" 
         className="absolute inset-0 w-full h-full object-cover opacity-50"
       />
