@@ -1,10 +1,14 @@
-// En Navbar.jsx, importa el store de auth
+// src/components/organisms/Navbar.jsx
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { useCartStore } from '../../store/useCartStore'; // <--- ESTA ES LA LÍNEA QUE FALTA
 import { useAuthStore } from '../../store/useAuthStore';
 import { auth as firebaseAuth } from '../../firebase/config';
 import { signOut } from 'firebase/auth';
 
+
 const Navbar = () => {
-  const cart = useCartStore((state) => state.cart);
+ const cart = useCartStore((state) => state.cart); 
   const { user, logout } = useAuthStore();
 
   const manejarLogout = () => {
