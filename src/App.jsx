@@ -1,5 +1,5 @@
 // src/App.jsx
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // 1. Importación de Componentes Globales
 import Navbar from './components/organisms/Navbar';
