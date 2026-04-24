@@ -14,8 +14,8 @@ const Home = () => {
 
   // 1. Primero filtramos por búsqueda
   const filteredProducts = products.filter((item) =>
-    item.title.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  item.title.toLowerCase().includes(searchTerm.toLowerCase())
+);
 
   // 2. Calculamos los índices para cortar la lista
   const indexOfLastProduct = currentPage * productsPerPage; // Ejemplo: 1 * 8 = 8
