@@ -22,7 +22,7 @@ const Footer = () => {
           <h4 className="text-white text-xs font-bold tracking-[0.2em] uppercase">Desarrollado por</h4>
           <ul className="text-[11px] space-y-2 tracking-widest uppercase">
             <li className="flex items-center gap-2">
-              <span className="text-slate-500">●</span> Emiliano
+              <span className="text-slate-500">●</span> Alejandro Murillo.
             </li>
             <li className="flex items-center gap-2 font-medium text-slate-300">
               <span className="text-slate-500">●</span> Proyecto Final E-Commerce
@@ -36,7 +36,7 @@ const Footer = () => {
         {/* Columna 3: Atención al Cliente */}
         <div className="space-y-4">
           <h4 className="text-white text-xs font-bold tracking-[0.2em] uppercase">Contacto</h4>
-          <p className="text-[11px] tracking-widest">SOPORTE@ALEJANDROSTORE.COM</p>
+          <p className="text-[11px] tracking-widest">jamer.murillo@upb.edu.co</p>
           <div className="flex gap-4 pt-2">
             {/* Iconos simulados en plateado */}
             <div className="w-8 h-8 rounded-full border border-neutral-800 flex items-center justify-center hover:border-slate-400 transition cursor-pointer">IG</div>
@@ -52,7 +52,7 @@ const Footer = () => {
           © {new Date().getFullYear()} ALEJANDRO STORE - TODOS LOS DERECHOS RESERVADOS.
         </p>
         <p className="text-[9px] tracking-[0.3em] uppercase text-slate-600">
-          DESIGNED BY EMILIANO
+          DESIGNED BY ALEJANDRO
         </p>
       </div>
     </footer>
