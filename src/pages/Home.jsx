@@ -34,10 +34,12 @@ const Home = () => {
       <div className="container mx-auto px-4">
         <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 
-        <h2 className="text-center text-3xl font-serif mb-12 text-neutral-800 tracking-widest uppercase">
-          Nuestras Piezas
-        </h2>
-        
+        <h2 
+  id="nuestra-coleccion" 
+  className="text-center text-3xl font-serif mb-12 text-neutral-800 tracking-widest uppercase"
+>
+  Nuestras Piezas
+</h2>
         {/* Grid de Productos (Máximo 8 por página) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12">
           {currentProducts.map((item) => (
