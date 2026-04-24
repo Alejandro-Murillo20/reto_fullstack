@@ -24,7 +24,9 @@ const ProductDetail = () => {
         <div className="flex flex-col justify-center">
           <span className="text-[10px] uppercase tracking-[0.3em] text-slate-400 mb-2">{product.category}</span>
           <h1 className="text-4xl font-serif text-neutral-900 mb-6">{product.title}</h1>
-          <p className="text-neutral-600 leading-relaxed mb-8 text-sm">{product.description}</p>
+          <p className="text-neutral-800 leading-relaxed mb-8 text-base">
+  {product.description}
+</p>
           <p className="text-3xl font-light text-slate-500 mb-10">${product.price.toFixed(2)}</p>
           
           <button 
