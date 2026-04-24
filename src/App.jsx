@@ -6,6 +6,7 @@ import ProductDetail from './pages/ProductDetail';
 import Cart from './pages/Cart';
 import Notification from './components/atoms/Notification'; // 1. Importar
 import { useCartStore } from './store/useCartStore'; // 2. Importar Store
+import Checkout from './pages/Checkout';
 
 function App() {
   const { showNotification, hideNotification } = useCartStore(); // 3. Traer estados
@@ -27,6 +28,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Checkout />} />
           </Routes>
         </main>
       </div>

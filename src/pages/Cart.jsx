@@ -2,6 +2,7 @@
 import React from 'react';
 import { useCartStore } from '../store/useCartStore';
 import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Cart = () => {
   // Traemos los productos guardados y las funciones para editar el carrito
@@ -9,6 +10,8 @@ const Cart = () => {
 
   // Cálculo del total
   const total = cart.reduce((acc, item) => acc + item.price, 0);
+
+  const navigate = useNavigate();
 
   return (
     <div className="container mx-auto px-6 py-20 max-w-4xl">
@@ -57,9 +60,13 @@ const Cart = () => {
               >
                 Vaciar Bolsa
               </button>
-              <button className="flex-1 md:flex-none bg-neutral-950 text-white px-10 py-4 text-[10px] uppercase tracking-widest font-bold hover:bg-neutral-800 shadow-xl transition">
-                Finalizar Compra
-              </button>
+              <button 
+  onClick={() => navigate('/checkout')}
+  className="flex-1 md:flex-none bg-neutral-950 text-white px-10 py-4 text-[10px] uppercase tracking-widest font-bold hover:bg-neutral-800 shadow-xl transition"
+>
+  Finalizar Compra
+</button>
+
             </div>
           </div>
         </div>
