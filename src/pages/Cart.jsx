@@ -1,8 +1,8 @@
 // src/pages/Cart.jsx
 import React from 'react';
 import { useCartStore } from '../store/useCartStore';
-import { Link } from 'react-router-dom';
 import { Link, useNavigate } from 'react-router-dom';
+
 
 const Cart = () => {
   // Traemos los productos guardados y las funciones para editar el carrito
