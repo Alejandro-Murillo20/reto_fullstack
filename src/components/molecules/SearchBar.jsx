@@ -9,7 +9,8 @@ const SearchBar = ({ searchTerm, setSearchTerm }) => {
         <input
           type="text"
           placeholder="BUSCAR EN LA COLECCIÓN..."
-          className="w-full pl-8 pr-4 py-2 bg-transparent outline-none uppercase text-xs tracking-widest text-neutral-800 placeholder:text-neutral-300"
+          /* Quitamos 'uppercase' para que veas lo que escribes tal cual */
+          className="w-full pl-8 pr-4 py-2 bg-transparent outline-none text-sm tracking-widest text-neutral-800 placeholder:text-neutral-300"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
