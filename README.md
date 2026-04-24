@@ -46,7 +46,7 @@ Sigue estos pasos para ejecutar el proyecto localmente:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone <url-de-tu-repositorio>
+   git clone https://github.com/Alejandro-Murillo20/reto_fullstack.git
    ```
 2. **Instalar dependencias:**
    ```bash
@@ -60,6 +60,6 @@ Sigue estos pasos para ejecutar el proyecto localmente:
    ```
 
 ---
-**Desarrollado por:** Emiliano
+**Desarrollado por:** Alejandro
 **Año:** 2026
-**Proyecto:** Final E-Commerce Fullstack
+**Proyecto:** Reto E-Commerce Fullstack
