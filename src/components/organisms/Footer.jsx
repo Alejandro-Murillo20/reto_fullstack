@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="space-y-4">
           <h4 className="text-white text-xs font-bold tracking-[0.2em] uppercase border-b border-neutral-800 pb-2 w-fit">Desarrollado por</h4>
           <ul className="text-[13px] space-y-2 tracking-widest uppercase font-bold text-white">
-            <li>EMILIANO</li>
+            <li>ALEJANDRO</li>
             <li className="text-neutral-300 font-medium">PROYECTO FINAL E-COMMERCE</li>
             <li className="text-neutral-300 font-medium">2026</li>
           </ul>
@@ -31,16 +31,24 @@ const Footer = () => {
 
         {/* Columna 3: Contacto */}
         <div className="space-y-4">
-          <h4 className="text-white text-xs font-bold tracking-[0.2em] uppercase border-b border-neutral-800 pb-2 w-fit">Contacto</h4>
-          {/* CORREO: Cambiado a text-white y font-bold para máxima nitidez */}
-          <p className="text-[12px] tracking-widest text-white font-bold bg-neutral-900 px-3 py-2 rounded-sm inline-block">
-            SOPORTE@ALEJANDROSTORE.COM
-          </p>
-          <div className="flex gap-4 pt-4">
-            <div className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center text-white font-bold hover:bg-white hover:text-black transition-all cursor-pointer">IG</div>
-            <div className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center text-white font-bold hover:bg-white hover:text-black transition-all cursor-pointer">FB</div>
-          </div>
-        </div>
+  <h4 className="text-white text-xs font-bold tracking-[0.2em] uppercase border-b border-neutral-700 pb-2 w-fit">
+    Contacto
+  </h4>
+  
+  {/* CORREO ELECTRÓNICO: Máxima visibilidad */}
+  <p className="text-[14px] md:text-[13px] tracking-[0.1em] text-white font-black block mt-4">
+    JAMER153@OUTLOOK.COM
+  </p>
+
+  <div className="flex gap-4 pt-4">
+    <div className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center text-white font-bold hover:bg-white hover:text-black transition-all cursor-pointer">
+      IG
+    </div>
+    <div className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center text-white font-bold hover:bg-white hover:text-black transition-all cursor-pointer">
+      FB
+    </div>
+  </div>
+</div>
 
       </div>
 
