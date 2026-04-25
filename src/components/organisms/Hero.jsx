@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <div className="relative h-[500px] w-full bg-neutral-900 overflow-hidden mb-16">
       <img 
-        src="/images/banner-gala.jpg" 
+        src="/images/banner-gala.webp" 
         alt="Alejandro Store Collection" 
         className="absolute inset-0 w-full h-full object-cover opacity-60"
       />
