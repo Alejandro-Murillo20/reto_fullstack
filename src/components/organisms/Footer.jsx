@@ -59,7 +59,7 @@ const Footer = () => {
           © {new Date().getFullYear()} ALEJANDRO STORE - TODOS LOS DERECHOS RESERVADOS.
         </p>
         <p className="text-[11px] tracking-[0.3em] uppercase text-white font-black">
-          DESIGNED BY EMILIANO
+          DESIGNED BY ALEJANDRO
         </p>
       </div>
     </footer>
