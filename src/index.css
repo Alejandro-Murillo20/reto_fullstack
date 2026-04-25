@@ -2,6 +2,11 @@
 
 /* Un pequeño toque extra para el fondo elegante */
 body {
-  background-color: #ffffff;
-  color: #1a1a1a;
+  color: #0a0a0a; /* Un negro casi puro para máxima legibilidad */
+  -webkit-font-smoothing: antialiased; /* Suaviza la fuente en Mac/Windows */
+}
+
+/* Oscurecemos todos los párrafos de una vez */
+p {
+  color: #1a1a1a !important; 
 }
